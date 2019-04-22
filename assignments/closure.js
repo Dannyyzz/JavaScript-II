@@ -1,6 +1,20 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function Lambda() {
+  const pm = "Andrew McLaughlin";
+  console.log(`May my Project Manager be ${pm}!`);
 
+  function study() {
+    console.log(`I demand more study time with ${pm}!`);
+
+    function overtime() {
+      console.log(`Zoom expires.. Oh well. GN guys.`);
+    }
+    overtime();
+  }
+  study();
+}
+Lambda();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
